@@ -1,0 +1,16 @@
+2015/11/03 16:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news".' in C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#1 C:\OpenServer\domains\test\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\testyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=news
+---
+2015/11/03 16:57:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news1".' in C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('news1')
+#1 C:\OpenServer\domains\test\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\testyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=news1
+---
